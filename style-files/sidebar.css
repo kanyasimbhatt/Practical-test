@@ -130,7 +130,6 @@ body {
 }
 
 .account-holder {
-  flex: 1;
   display: flex;
   align-items: center;
   padding-left: 20px;
