@@ -1,0 +1,6 @@
+.main-body {
+  display: grid;
+  grid-template-columns: 341px 700px;
+  grid-template-rows: 200px 800px;
+  border: 2px solid black;
+}
