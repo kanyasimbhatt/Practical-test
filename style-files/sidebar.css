@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.sidebar-navbar {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 30px;
+  font-family: "Roboto Flex", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+.bruddle-header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.navigation-section > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.navigation-options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding-left: 20px;
+}
+
+.navigation-options:hover {
+  background-color: rgba(22, 22, 22, 1);
+}
+
+.navigation-options > p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#sidebar-selected-section {
+  color: rgba(174, 122, 255, 1);
+  background-color: rgba(22, 22, 22, 1);
+}
+
+.team-members {
+  margin-top: 30px;
+}
+
+.team-members > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.team-members-options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding-left: 20px;
+}
+
+.team-members-options:hover {
+  background-color: rgba(22, 22, 22, 1);
+}
+
+.team-members-options > p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sidebar-see-more {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.sidebar-see-more > p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+}
+
+.account-holder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 29vh;
+  margin-bottom: 3vh;
+}
+
+.account-holder:hover {
+  background-color: rgba(22, 22, 22, 1);
+}
+
+.account-holder-name {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.account-holder-more {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account-holder-name > p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: bold;
+}
